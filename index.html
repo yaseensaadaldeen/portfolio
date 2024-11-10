@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="hero">
+      <img
+        id="toggleTheme"
+        class="theme-btn"
+        src="assets/theme_light.png"
+        alt="theme icon"
+      />
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img src="assets/yaseen.png" alt="Mason Wilkes" />
+      </div>
+      <div class="hero-info">
+        <h1>Hi, i am <br />Yaseen Saad Aldeen.</h1>
+        <h2>Full-stack Developer</h2>
+        <div class="logo-container">
+          <!-- <a href="https://github.com/"
+            ><img src="assets/github_light.png" alt="github logo"
+          /></a> -->
+          <a target="blank" href="https://www.linkedin.com/in/yassen-sad-969964242">
+            <img src="assets/linkedin_light.png" alt="linkedin logo" />
+          </a>
+          <a target="blank" href="mailto:yassensad5@gmail.com">
+            <img src="assets/email_light.png" alt="email logo" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="experience">
+      <h2>
+        <b>4</b>
+        <br />Years <br />Full-stack developer
+      </h2>
+      <h2>
+        <b>3</b>
+        <br />Years <br />at Mabco company
+      </h2>
+    </section>
+    <section class="cta">
+      <a target="blank" href="assets/Yaseen Saad Aldeen CV.pdf" download>
+        <button class="btn download-btn">Download CV</button>
+      </a>
+      <a href="mailto:yassensad5@gmail.com">
+        <button class="btn contact-btn">Contact Me</button>
+      </a>
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Portfolio</button>
+        <button class="btn-2" id="skills-btn">Skills</button>
+        <button class="btn-2" id="aboutme-btn">About me</button>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <div class="col-md-12 skill">
+          <div class="skill-image">
+            <a target="blank" href="https://drive.google.com/file/d/1lIM770v1jgTEkErVNr4jx5uL3VwLKxuQ/view?usp=sharing">
+              <img
+                src="assets/Mobile App Screen Mockup, Floating.png"
+                alt="Project 1"
+              />
+            </a>
+         
+          </div>
+          <div class="skill-info">
+            <p>Java App for Showing Company Products & Services</p>
+            <br />
+            <h5>
+              Developed a comprehensive Java android application from scratch to
+              showcase company products and services with alot of functional
+              features, complete with personalized admin statistics. The project features
+              full-stack integration, including the optimization of SQL database
+              tables and procedures to ensure fast response times. With
+              designing and implementing a Laravel PHP API to connect the
+              application’s frontend with backend functionality, providing a
+              smooth user experience and robust performance with firebase notification . Successfully
+              published on Google Play.
+            </h5>
+            <hr>
+            <a href="">
+          </div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="col-md-12 skill">
+          <div class="skill-image">
+            <a target="blank" >
+              <img src="assets/Accounting.png" alt="Project 1" />
+            </a>
+          </div>
+          <div class="skill-info">
+            <p>
+              Sales and Accounting Management System for Retail Company 
+            </p>
+            <br />
+            <h5>
+              Developed a Sales and Accounting System for a mobile and energy
+              solutions retail company, featuring billing, cashiering, and
+              automated commission calculations. Includes real-time sales
+              tracking, sales team target reports, and commission calculations
+              based on monthly performance, empowering managers with detailed
+              insights for data-driven decision-making.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="col-md-12 skill">
+          <div class="skill-image">
+            <a target="blank" href="https://mabcoonline.com/">
+              <img src="assets/website-image.png" alt="Project 1" />
+            </a>
+          </div>
+          <div class="skill-info">
+            <p>E-commerce Website</p>
+            <br />
+            <h5>
+            Developed an ASP.NET C# e-commerce website to showcase company products,
+             utilizing HTML, CSS, and JavaScript for a responsive user interface.
+              The project includes a robust database for product management, server side caching  
+              and fast response time, with IIS server publishing,
+              enabling seamless inventory control and user interaction.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="col-md-12 skill">
+          <div class="skill-image">
+            <a target="blank" href="https://github.com/">
+              <img src="assets/xampp-1.jpg" alt="Project 1" />
+            </a>
+          </div>
+          <div class="skill-info">
+            <p>Comprehensive Web Application Deployment</p>
+            <br />
+            <h5>
+              Configured XAMPP, Laravel PHP, and Apache to deploy a web application 
+              on a network domain with iits configurations, ensuring seamless server integration.
+               Implemented data retrieval from SQL Server using multiple
+              libraries to enhance the application’s performance and functionality.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="col-md-12 skill">
+          <div class="skill-image">
+            <a target="blank" href="https://github.com/">
+              <img src="assets/MSSQL.jpg" alt="Project 1" />
+            </a>
+          </div>
+          <div class="skill-info">
+            <p>SQL Server Administration </p>
+            <br />
+            <h5>
+              Extensive experience in managing and configuring SQL Server environments to support application performance and reliability.
+               Responsibilities included database setup, optimization, maintenance, and security.
+               Integrated data retrieval for applications using various libraries to streamline processes and ensure seamless data
+                communication with server-side applications.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Frontend</h3>
+        <article class="frontend-skills">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>SASS</p>
+          <p>JavaScript</p>
+          <p>Material UI</p>
+          <p>JQuery</p>
+        </article>
+      </div>
+      <div class="wrapper">
+        <h3>Backend</h3>
+        <article class="backend-skills">
+          <p>C#</p>
+          <p>ASP.net</p>
+          <p>Java</p>
+          <p>APIs</p>
+          <p>Swift </p>
+          <p>Git</p>
+          <p>PHP</p>
+          <p>Spring</p>
+          <p>Web Servers</p>
+          <p>Laravel </p>
+          <p>SQL</p>
+          <p>MySQL</p>
+          <p>Oracle </p>
+        </article>
+      </div>
+    </section>
+    <section class="aboutme" id="aboutme">
+    <div class="about-container">
+
+        <span class="about-text">I am a dedicated and skilled Full Stack Developer with extensive experience in developing both web and mobile applications. Over the years, I have cultivated a diverse technical skill set that includes expertise in C#, Java (Android), Xcode Swift, PHP Laravel, JavaScript, ASP.NET, and Windows server management. My proficiency in SQL, Oracle, and MySQL database systems has enabled me to create efficient, high-performance solutions tailored to complex business needs.</span>
+
+        <header class="about-subheader">Professional Experience</header>
+        <span class="about-text">As a Full Stack Developer at Mabco since 2021, I have built and maintained applications utilizing a wide array of technologies. This includes development with ASP.NET/Core/MVC in C#, Android development, and web technologies like HTML, CSS, and JavaScript. I have also managed and integrated APIs, ensuring seamless data exchange and enhanced functionality for user-centric applications.</span>
+
+        <header class="about-subheader">Server Management & Deployment</header>
+        <span class="about-text">I have hands-on experience with server configuration and deployment using XAMPP and IIS, facilitating reliable application publishing. Additionally, I have managed Windows Server environments, overseeing Active Directory Domain Controllers (AD DC) with VPN setups to maintain secure and centralized operations.</span>
+
+        <header class="about-subheader">Database Administration</header>
+        <span class="about-text">In my role, I have been responsible for the optimization, creation, and maintenance of various SQL objects, ensuring fast query performance and responsiveness. I have also managed database security through user permissions and implemented robust backup and recovery strategies across multi-server environments.</span>
+    </div>
+    </section>
+    <footer>
+      <p>&copy Yaseen Saad Aldeen</p>
+    </footer>
+  </body>
+</html>
