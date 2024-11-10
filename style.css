@@ -346,7 +346,7 @@ footer {
   .portfolio, 
   .aboutme {
     flex-direction: row;
-    width: 100%;
+    width: 80%;
   }
   .skill{
     display: flex;
