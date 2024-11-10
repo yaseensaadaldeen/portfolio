@@ -282,7 +282,8 @@ article p,
 .portfolio,
 .skills
 .aboutme {
-  margin-top: 2rem;
+  margin: 2rem;
+  
 }
 
 .skills {
