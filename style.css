@@ -286,6 +286,9 @@ article p,
   margin-top: 2rem;
   
 }
+.aboutme{
+  margin: 2rem ;
+}
 
 .skills {
   display: none;
