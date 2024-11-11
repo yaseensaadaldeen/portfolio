@@ -270,9 +270,8 @@ footer,
   position: relative;
 }
 
-.btn-bg,
-.wrapper {
-  width: 30rem;
+.btn-bg, .wrapper {
+  width: 80%;
 }
 
 article p,
@@ -376,4 +375,8 @@ footer {
     width: calc(60%);
     /* flex: none; */
   }
+  .btn-bg {
+    width: auto;
+    /* width: 30rem; */
+}
 }
